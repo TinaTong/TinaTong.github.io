@@ -4,14 +4,195 @@
 	<meta charset="UTF-8">
 	<meta name="description" content="我是一个充满活力、对前端充满热爱的前端工程师，我目前正在寻找前端工程师岗位。">
 	<title>Toya 简历</title>
+	<style type="text/css">
+		body{
+			background-color:#eeeeee;
+			margin-top: 30px;
+
+		}
+		.jumbotron{
+			background-color:#FFFFFF;
+			
+			width: 1060px;
+			border-radius: 5px;
+			position: absolute;
+			left:50%;
+			margin-left:-530px;
+			top:10px;
+
+		}
+		.sidebar{
+			background-color:#29B6F6;
+			width:300px;
+			height: 1000px;
+			border-radius: 5px;
+			float: left;
+
+			
+		}
+		
+		
+		.ifo{
+			list-style: none;
+			
+		}
+		.ifo dt{
+			color: #FFFBF0;
+			font-size: 20px;
+			font-weight: bold;
+		}
+
+
+		.myname{
+			width: 270px;
+			margin:15px 15px 0 15px;
+			color: #FFFFFF;
+			text-align:center;
+		}
+		.myname img{
+			width: 200px;
+			height: 200px;
+			border-radius: 50%;
+			margin-top: 20px;
+
+		}
+		.main{
+			width: 760px;
+			height: 1000px;
+			border-radius: 5px;
+			float: right;
+			
+
+		}
+		.main ul{
+			list-style: none;
+			margin:35px 35px 0 0;
+		}
+		.main h2{
+			color: #00A1D6;
+			font-size: 25px;
+			
+			margin-top: 10px;
+			border-bottom: 1px solid  #00A1D6;
+		}
+		.main dd{
+			margin-top: 5px;
+		}
+		.main_ifo h3{
+			color: #246BB0;
+			margin: 0 0 0 10px;
+			font-size:20px;
+		}
+		.main_ifo h4{
+			margin:5px 0 5px 0;
+			font-size:20px;
+		}
+		.main_ifo ul{
+			border-left: 3px solid #00A1D6;
+			margin: 5px 0 5px 20px;
+			
+		}
+		.main_ifo li{
+			
+			margin-left: -20px;
+		}
+		.main_ifo p{
+			margin: 0 auto;
+		}
+	</style>
 </head>
 <body>
-	<h1>Toya的简历</h1>
-	<h2>Toya's Resume</h2>
-	<ul>
-		<li>电话:19900002222</li>
-		<li>邮箱:toyatong@163.com</li>
-		<li>微信:xxxxx</li>
-	</ul>
+	<div class="container">
+		<div class="jumbotron">
+		
+				<div class="sidebar">
+					<div class="myname">
+						<img src="img/monkey.jpg">
+						<h1>Toya's Resume</h1>
+						<h2>Toya</h2>
+					</div>
+					<div>
+						<ul class="side_ifo">
+							<li class='ifo'>
+								<dt>Contact. 联系方式</dt>
+								<dd>电话:19900002222</dd>
+								<dd>邮箱:toyatong@163.com</dd>
+								<dd>微信:xxxxx</dd>	
+							</li>
+							<br>
+							<li class='ifo'>
+								<dt>Application. 应聘岗位</dt>
+								<dd>PHP工程师</dd>
+								<dd>前端工程师</dd>
+							</li>
+							<br>
+							<li class='ifo'>
+								<dt>技能证书</dt>
+								<dd>计算机三级</dd>
+								<dd>CET-4</dd>
+								<dd>普通话二级甲等</dd>
+							</li>
+
+						</ul>
+							
+					</div>		
+				</div>
+
+				<div class = 'main'>
+					<ul>
+						<li class="main_ifo">
+							<h2>Basic info. 基本信息</h2>
+							<dd><strong>个人信息:</strong> <span>Toya/ 女 / 24</span></dd>
+                    		<dd><strong>毕业院校:</strong> <span>xxx(2013.9-2017.6)</span></dd>
+                    		<dd><strong>学历:</strong> <span>本科</span></dd>
+                    		<dd><strong>前端经验:</strong> <span>半年以上</span></dd>
+                    		<dd><strong>Github:</strong> <span></span></dd>
+                   			
+						</li>
+						<li class="main_ifo">
+							<h2>Skill. 技能清单</h2>
+							<h3>前端</h3>
+							<ul>
+								<li>
+                          			<h4>HTML / CSS</h4>
+                            		<p>能够编写语义化的 HTML，模块化的 CSS，完成常用布局</p>
+                            		<p>熟悉flex布局，CSS3动画</p>
+                            		<p>熟悉 Less、Sass、PostCSS、Autoprefixer 等CSS预处理和模块化工具</p>
+                       			</li>
+                       			<li>
+                       				<h4>JavaScript</h4>
+                            		<p>熟悉原生 Javascript习惯使用ES6语法，能脱离 jQuery 等类库编码</p>
+                            		<p>能运用模块化、面向对象的方式编程</p>
+                            		<p>了解 React、jQuery 的使用</p>
+                       			</li>	
+							</ul>
+
+							<h3>后端</h3>
+							<ul>
+								<li>
+									<h4>PHP</h4>
+									<P>熟悉PHP+Mysql应用开发，熟悉OOP设计及开发</P>
+									<P>熟悉TP框架技术，了解svn软件、ssh、ftp协议的使用</P>
+									<P>了解PHP缓存技术，Nosql（Memcache/Redis）非关系型数据库</P></P></P>
+									<P>了解接口技术、及优化技术</P>
+									<P>了解Linux系统，防SQL注入、防盗链、防暴力破解技术</P>
+									<P>了解服务器集群、数据库分离技术</P>
+									<P>良好的编程规范与习惯，思路清晰，逻辑性强，代码冗余率低，较强的debug能力	与学习能力，良好的团队合作精神，较强的沟通、协调能力与抗压能力</P>
+								</li>
+							</ul>
+						</li>
+						<li class="main_ifo">
+							<h2>Experience. 项目经验</h2>
+						</li>
+
+						
+					</ul>
+					
+				</div>
+			
+		</div>
+	</div> 
+	
+</div>
 </body>
 </html>
